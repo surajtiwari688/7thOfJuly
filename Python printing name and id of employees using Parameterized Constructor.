@@ -1,0 +1,15 @@
+#Python printing name and id of employees using Parameterized Constructor
+
+class Employee:
+ def __init__(self,id,name):
+    self.id = id
+    self.name = name
+
+ def display(self):
+    print("Hello My id is: ", self.id)
+    print("My name is: ", self.name)
+
+e1=Employee(1,'Suraj')
+e1.display()
+e2=Employee(2,'Rakesh')
+e2.display()
